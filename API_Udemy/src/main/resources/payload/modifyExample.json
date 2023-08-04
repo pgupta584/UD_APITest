@@ -1,0 +1,14 @@
+{
+  "requestID": "MISC_DEBIT_{{$timestamp}}",
+  "amount": {
+    "value": 100,
+    "currency": "INR"
+  },
+  "userLedgerID": "80000079230000021",
+  "systemLedgerID": "630000028009700001",
+  "categoryType": "RETAILPRINCIPAL",
+  "remarks": "Miscellaneous Credit Adjustment",
+  "attributes": {
+    "testAttr": "Credit Adjustment"
+  }
+}

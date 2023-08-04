@@ -1,0 +1,42 @@
+{
+  "name": "Pankaj {{$randomLastName}}",
+  "accountHolderID": "f7763be5-5b27-44ab-a3c1-96243bbe9594",
+  "creditLimit": 50000000,
+  "requestID": "PKGAccountTest{{$timestamp}}",
+  "statementPreferences": {
+    "cycleID": "4793228388953188857",
+    "cycleCode": 83823419,
+    "dispatchModes": [
+      "EMAIL",
+      "WHATSAPP"
+    ],
+    "attributes": {
+      "currency": "INR",
+      "account.pd-id": "4202712136292510534"
+    }
+  },
+  "attributes": {
+    "currency": "INR",
+    "account.pd-id": "4202712136292510534",
+    "dontPostInterest": "false",
+    "dontAssessInterest": "false",
+    "issuance.location": "TN",
+    "ruby.annual-fee.treatment": "REGULAR"
+  },
+  "flags": {
+    "creditBlocked": false,
+    "debitBlocked": false,
+    "delinquent": false,
+    "foreclosed": false,
+    "dontAssessInterest": false,
+    "dontPostInterest": false,
+    "dontAssessFees": false,
+    "dontPostFees": false,
+    "dontAllowHold": false,
+    "dontAllowJit": false,
+    "dontAllowMemo": false,
+    "dontAllowMandate": false,
+    "dontAllowLien": false,
+    "disableTransactionPolicyChecks": false
+  }
+}

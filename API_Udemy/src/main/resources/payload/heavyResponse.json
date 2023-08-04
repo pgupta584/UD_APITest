@@ -1,0 +1,784 @@
+{
+  "page": {
+    "size": 12,
+    "totalElements": 12,
+    "totalPages": 1,
+    "number": 1
+  },
+  "content": [
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648406,
+      "id": "3932b9aa-f2c3-4581-9074-2bb7bf1ddc03",
+      "value": 100000,
+      "createdAt": "2023-01-31T12:34:39.412Z",
+      "curn": "648406",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/GEN_PRGRM_HDFC_V1"
+      ],
+      "state": "ACTIVE",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168479412
+        },
+        "ISSUED": {
+          "startTime": 1675168479412,
+          "endTime": 1675168479412
+        }
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588616999999,
+            "programCode": "GEN_PRGRM_HDFC_V1",
+            "interestRule": {
+              "ruleId": "RULE02",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/RT0001_0_INT?version=2",
+                "gracePeriodType": "POLICY"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "remarks": "JOINING FEE",
+          "isForced": "true",
+          "journal.self": "false",
+          "isP2PTransfer": "false",
+          "ruby.chargeID": "b883bf90-857e-4bee-a4ee-a22a8305c62d",
+          "ruby.chargeCode": "POLCHA001ANNUALRBL",
+          "ruby.chargeType": "AnnualRenewalFee",
+          "journal.voucherCode": "RUBY_ANNUAL_FEE",
+          "ruby.baseChargeType": "AnnualRenewalFee",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "AnnualFeeUnbilled",
+          "InterestFreeUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648407,
+      "id": "b36e1dce-d3d7-47f0-ab80-54943aefac65",
+      "value": 100000,
+      "createdAt": "2023-01-31T12:34:41.207Z",
+      "curn": "648407",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/GEN_PRGRM_HDFC_V1"
+      ],
+      "state": "ACTIVE",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168481207
+        },
+        "ISSUED": {
+          "startTime": 1675168481207,
+          "endTime": 1675168481207
+        }
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588616999999,
+            "programCode": "GEN_PRGRM_HDFC_V1",
+            "interestRule": {
+              "ruleId": "RULE02",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/RT0001_0_INT?version=2",
+                "gracePeriodType": "POLICY"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "remarks": "JOINING FEE",
+          "isForced": "true",
+          "journal.self": "false",
+          "isP2PTransfer": "false",
+          "ruby.chargeID": "e8aeadcd-3662-4daa-a5ee-025a179bf129",
+          "ruby.chargeCode": "POLCHA001ANNUALRBL",
+          "ruby.chargeType": "AnnualRenewalFee",
+          "journal.voucherCode": "RUBY_ANNUAL_FEE",
+          "ruby.baseChargeType": "AnnualRenewalFee",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "AnnualFeeUnbilled",
+          "InterestFreeUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648408,
+      "id": "32179912-fe40-4f39-ad9e-4615fa1ac4e7",
+      "value": 9000,
+      "createdAt": "2023-01-31T12:34:41.477Z",
+      "curn": "648408",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/GEN_PRGRM_HDFC_V1"
+      ],
+      "state": "ACTIVE",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168481477
+        },
+        "ISSUED": {
+          "startTime": 1675168481477,
+          "endTime": 1675168481477
+        }
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588616999999,
+            "programCode": "GEN_PRGRM_HDFC_V1",
+            "interestRule": {
+              "ruleId": "RULE02",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/RT0001_0_INT?version=2",
+                "gracePeriodType": "POLICY"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "true",
+          "journal.self": "false",
+          "isP2PTransfer": "false",
+          "ruby.chargeID": "b883bf90-857e-4bee-a4ee-a22a8305c62d",
+          "ruby.chargeCode": "CGSTAFHDFC001",
+          "ruby.chargeType": "CGST",
+          "journal.voucherCode": "RUBY_ANNUAL_FEE",
+          "ruby.baseChargeType": "AnnualRenewalFee",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "false",
+          "derivedChargeInvoiceNumber": "TCC2012221556914",
+          "ruby.derivedChargeComponentPercentage": "9"
+        },
+        "postingCategories": [
+          "RetailUnbilled",
+          "gstUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648409,
+      "id": "2ae78fcc-4d3f-47b4-9d04-1649bc9dcc06",
+      "value": 9000,
+      "createdAt": "2023-01-31T12:34:42.247Z",
+      "curn": "648409",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/GEN_PRGRM_HDFC_V1"
+      ],
+      "state": "ACTIVE",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168482247
+        },
+        "ISSUED": {
+          "startTime": 1675168482247,
+          "endTime": 1675168482247
+        }
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588616999999,
+            "programCode": "GEN_PRGRM_HDFC_V1",
+            "interestRule": {
+              "ruleId": "RULE02",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/RT0001_0_INT?version=2",
+                "gracePeriodType": "POLICY"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "true",
+          "journal.self": "false",
+          "isP2PTransfer": "false",
+          "ruby.chargeID": "e8aeadcd-3662-4daa-a5ee-025a179bf129",
+          "ruby.chargeCode": "SGSTAFHDFC001",
+          "ruby.chargeType": "SGST",
+          "journal.voucherCode": "RUBY_ANNUAL_FEE",
+          "ruby.baseChargeType": "AnnualRenewalFee",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "false",
+          "derivedChargeInvoiceNumber": "TCC2012251706443",
+          "ruby.derivedChargeComponentPercentage": "9"
+        },
+        "postingCategories": [
+          "RetailUnbilled",
+          "gstUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648410,
+      "id": "ca6aca25-878d-4aa7-a99e-a842eb39a075",
+      "value": 9000,
+      "createdAt": "2023-01-31T12:34:42.645Z",
+      "curn": "648410",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/GEN_PRGRM_HDFC_V1"
+      ],
+      "state": "ACTIVE",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168482645
+        },
+        "ISSUED": {
+          "startTime": 1675168482645,
+          "endTime": 1675168482645
+        }
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588616999999,
+            "programCode": "GEN_PRGRM_HDFC_V1",
+            "interestRule": {
+              "ruleId": "RULE02",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/RT0001_0_INT?version=2",
+                "gracePeriodType": "POLICY"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "true",
+          "journal.self": "false",
+          "isP2PTransfer": "false",
+          "ruby.chargeID": "b883bf90-857e-4bee-a4ee-a22a8305c62d",
+          "ruby.chargeCode": "SGSTAFHDFC001",
+          "ruby.chargeType": "SGST",
+          "journal.voucherCode": "RUBY_ANNUAL_FEE",
+          "ruby.baseChargeType": "AnnualRenewalFee",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "false",
+          "derivedChargeInvoiceNumber": "TCC2012221556914",
+          "ruby.derivedChargeComponentPercentage": "9"
+        },
+        "postingCategories": [
+          "RetailUnbilled",
+          "gstUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648411,
+      "id": "e9902005-c7e0-438e-aad6-392981c92c8e",
+      "value": 9000,
+      "createdAt": "2023-01-31T12:34:42.873Z",
+      "curn": "648411",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/GEN_PRGRM_HDFC_V1"
+      ],
+      "state": "ACTIVE",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168482873
+        },
+        "ISSUED": {
+          "startTime": 1675168482873,
+          "endTime": 1675168482873
+        }
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588616999999,
+            "programCode": "GEN_PRGRM_HDFC_V1",
+            "interestRule": {
+              "ruleId": "RULE02",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/RT0001_0_INT?version=2",
+                "gracePeriodType": "POLICY"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "true",
+          "journal.self": "false",
+          "isP2PTransfer": "false",
+          "ruby.chargeID": "e8aeadcd-3662-4daa-a5ee-025a179bf129",
+          "ruby.chargeCode": "CGSTAFHDFC001",
+          "ruby.chargeType": "CGST",
+          "journal.voucherCode": "RUBY_ANNUAL_FEE",
+          "ruby.baseChargeType": "AnnualRenewalFee",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "false",
+          "derivedChargeInvoiceNumber": "TCC2012251706443",
+          "ruby.derivedChargeComponentPercentage": "9"
+        },
+        "postingCategories": [
+          "RetailUnbilled",
+          "gstUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648416,
+      "id": "205aacec-7da2-483a-b379-9e557c95da2a",
+      "value": 100,
+      "createdAt": "2023-01-31T12:35:52.755Z",
+      "curn": "648416",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/CASH_GEN_COUP_V3_BENIFIT_45_2"
+      ],
+      "state": "REDEEMED",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168552755,
+          "endTime": 1675168554106
+        },
+        "ISSUED": {
+          "startTime": 1675168552755,
+          "endTime": 1675168552755
+        },
+        "REDEEMED": {
+          "startTime": 1675168554106
+        }
+      },
+      "redemptionInfo": {
+        "postingID": 648418,
+        "value": 100,
+        "systemTime": "2023-01-31T18:05:53.408+05:30",
+        "redeemedAt": "2023-01-31T12:35:54.106Z",
+        "bookTime": "2020-05-02T00:00:00+05:30",
+        "valueTime": "2020-05-02T00:00:00+05:30",
+        "redemptionType": "FULL",
+        "reissuedCoupons": [],
+        "causedByPostingID": "648417"
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588357800000,
+            "programCode": "CASH_GEN_COUP_V3_BENIFIT_45_2",
+            "interestRule": {
+              "ruleId": "RULE01",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/CASH_GEN_001_45?version=2",
+                "gracePeriod": 0,
+                "gracePeriodType": "ABSOLUTE"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "false",
+          "journal.self": "false",
+          "rulesApplied": "[{\"ruleID\":\"Rule-4811151235392383024\",\"version\":\"1\"}]",
+          "isP2PTransfer": "false",
+          "ruby.categoryType": "CASHPRINCIPAL",
+          "journal.voucherCode": "CARD_MISC_DEBIT_ADJUSTMENTS",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "CashUnbilled",
+          "CashPrincipalUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648419,
+      "id": "692cd290-94d0-40a8-a9c4-6c84d61c7045",
+      "value": 1000,
+      "createdAt": "2023-01-31T12:36:34.702Z",
+      "curn": "648419",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/CASH_GEN_COUP_V3_BENIFIT_45_2"
+      ],
+      "state": "REDEEMED",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168594702,
+          "endTime": 1675168595687
+        },
+        "ISSUED": {
+          "startTime": 1675168594702,
+          "endTime": 1675168594702
+        },
+        "REDEEMED": {
+          "startTime": 1675168595687
+        }
+      },
+      "redemptionInfo": {
+        "postingID": 648421,
+        "value": 1000,
+        "systemTime": "2023-01-31T18:06:35.294+05:30",
+        "redeemedAt": "2023-01-31T12:36:35.686Z",
+        "bookTime": "2020-05-02T00:00:00+05:30",
+        "valueTime": "2020-05-02T00:00:00+05:30",
+        "redemptionType": "FULL",
+        "reissuedCoupons": [],
+        "causedByPostingID": "648420"
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588357800000,
+            "programCode": "CASH_GEN_COUP_V3_BENIFIT_45_2",
+            "interestRule": {
+              "ruleId": "RULE01",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/CASH_GEN_001_45?version=2",
+                "gracePeriod": 0,
+                "gracePeriodType": "ABSOLUTE"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "false",
+          "journal.self": "false",
+          "rulesApplied": "[{\"ruleID\":\"Rule-4811151235392383024\",\"version\":\"1\"}]",
+          "isP2PTransfer": "false",
+          "ruby.categoryType": "CASHPRINCIPAL",
+          "journal.voucherCode": "CARD_MISC_DEBIT_ADJUSTMENTS",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "CashUnbilled",
+          "CashPrincipalUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648422,
+      "id": "d25a15b9-796e-4d0b-bf36-786985cb6cfb",
+      "value": 1000,
+      "createdAt": "2023-01-31T12:37:18.960Z",
+      "curn": "648422",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/CASH_GEN_COUP_V3_BENIFIT_45_2"
+      ],
+      "state": "REDEEMED",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168638960,
+          "endTime": 1675168640076
+        },
+        "ISSUED": {
+          "startTime": 1675168638960,
+          "endTime": 1675168638960
+        },
+        "REDEEMED": {
+          "startTime": 1675168640076
+        }
+      },
+      "redemptionInfo": {
+        "postingID": 648424,
+        "value": 1000,
+        "systemTime": "2023-01-31T18:07:19.657+05:30",
+        "redeemedAt": "2023-01-31T12:37:20.076Z",
+        "bookTime": "2020-05-02T00:00:00+05:30",
+        "valueTime": "2020-05-02T00:00:00+05:30",
+        "redemptionType": "FULL",
+        "reissuedCoupons": [],
+        "causedByPostingID": "648423"
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588357800000,
+            "programCode": "CASH_GEN_COUP_V3_BENIFIT_45_2",
+            "interestRule": {
+              "ruleId": "RULE01",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/CASH_GEN_001_45?version=2",
+                "gracePeriod": 0,
+                "gracePeriodType": "ABSOLUTE"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "false",
+          "journal.self": "false",
+          "rulesApplied": "[{\"ruleID\":\"Rule-4811151235392383024\",\"version\":\"1\"}]",
+          "isP2PTransfer": "false",
+          "ruby.categoryType": "CASHPRINCIPAL",
+          "journal.voucherCode": "CARD_MISC_DEBIT_ADJUSTMENTS",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "CashUnbilled",
+          "CashPrincipalUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648425,
+      "id": "033360a5-ff00-410a-8aec-60f989d5b980",
+      "value": 1000,
+      "createdAt": "2023-01-31T12:38:10.718Z",
+      "curn": "648425",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/CASH_GEN_COUP_V3_BENIFIT_45_2"
+      ],
+      "state": "REDEEMED",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168690718,
+          "endTime": 1675168691593
+        },
+        "ISSUED": {
+          "startTime": 1675168690718,
+          "endTime": 1675168690718
+        },
+        "REDEEMED": {
+          "startTime": 1675168691593
+        }
+      },
+      "redemptionInfo": {
+        "postingID": 648427,
+        "value": 1000,
+        "systemTime": "2023-01-31T18:08:11.196+05:30",
+        "redeemedAt": "2023-01-31T12:38:11.593Z",
+        "bookTime": "2020-05-02T00:00:00+05:30",
+        "valueTime": "2020-05-02T00:00:00+05:30",
+        "redemptionType": "FULL",
+        "reissuedCoupons": [],
+        "causedByPostingID": "648426"
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588357800000,
+            "programCode": "CASH_GEN_COUP_V3_BENIFIT_45_2",
+            "interestRule": {
+              "ruleId": "RULE01",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/CASH_GEN_001_45?version=2",
+                "gracePeriod": 0,
+                "gracePeriodType": "ABSOLUTE"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "false",
+          "journal.self": "false",
+          "rulesApplied": "[{\"ruleID\":\"Rule-4811151235392383024\",\"version\":\"1\"}]",
+          "isP2PTransfer": "false",
+          "ruby.categoryType": "CASHPRINCIPAL",
+          "journal.voucherCode": "CARD_MISC_DEBIT_ADJUSTMENTS",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "CashUnbilled",
+          "CashPrincipalUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648428,
+      "id": "dd393411-6892-4994-a608-efb9638ae8ea",
+      "value": 1000,
+      "createdAt": "2023-01-31T12:38:49.081Z",
+      "curn": "648428",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/CASH_GEN_COUP_V3_BENIFIT_45_2"
+      ],
+      "state": "REDEEMED",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168729081,
+          "endTime": 1675168731014
+        },
+        "ISSUED": {
+          "startTime": 1675168729081,
+          "endTime": 1675168729081
+        },
+        "REDEEMED": {
+          "startTime": 1675168731014
+        }
+      },
+      "redemptionInfo": {
+        "postingID": 648430,
+        "value": 1000,
+        "systemTime": "2023-01-31T18:08:50.498+05:30",
+        "redeemedAt": "2023-01-31T12:38:51.014Z",
+        "bookTime": "2020-05-02T00:00:00+05:30",
+        "valueTime": "2020-05-02T00:00:00+05:30",
+        "redemptionType": "FULL",
+        "reissuedCoupons": [],
+        "causedByPostingID": "648429"
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588357800000,
+            "programCode": "CASH_GEN_COUP_V3_BENIFIT_45_2",
+            "interestRule": {
+              "ruleId": "RULE01",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/CASH_GEN_001_45?version=2",
+                "gracePeriod": 0,
+                "gracePeriodType": "ABSOLUTE"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "false",
+          "journal.self": "false",
+          "rulesApplied": "[{\"ruleID\":\"Rule-4811151235392383024\",\"version\":\"1\"}]",
+          "isP2PTransfer": "false",
+          "ruby.categoryType": "CASHPRINCIPAL",
+          "journal.voucherCode": "CARD_MISC_DEBIT_ADJUSTMENTS",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "CashUnbilled",
+          "CashPrincipalUnbilled"
+        ]
+      },
+      "attachments": []
+    },
+    {
+      "ledgerID": 4811151235392383024,
+      "postingID": 648431,
+      "id": "a6051e0a-5a3b-4cca-9744-4efb7489a691",
+      "value": 100,
+      "createdAt": "2023-01-31T12:39:39.066Z",
+      "curn": "648431",
+      "bookTime": "2020-05-01T18:30Z",
+      "valueTime": "2020-05-01T18:30Z",
+      "tags": [
+        "tag://program/GEN_PRGRM_HDFC_V1"
+      ],
+      "state": "ACTIVE",
+      "stateTransitionMap": {
+        "ACTIVE": {
+          "startTime": 1675168779066
+        },
+        "ISSUED": {
+          "startTime": 1675168779066,
+          "endTime": 1675168779066
+        }
+      },
+      "terms": {
+        "interest": {
+          "term": {
+            "graceDate": 1588616999999,
+            "programCode": "GEN_PRGRM_HDFC_V1",
+            "interestRule": {
+              "ruleId": "RULE01",
+              "modelParameters": {
+                "margin": 0.0,
+                "rateTable": "/rateSpecificationCodes/ECOM_RATE_001?version=3",
+                "gracePeriodType": "POLICY"
+              }
+            }
+          }
+        }
+      },
+      "attributes": {
+        "postingAttributes": {
+          "isForced": "false",
+          "journal.self": "false",
+          "rulesApplied": "[{\"ruleID\":\"Rule-4811151235392383024\",\"version\":\"1\"}]",
+          "isP2PTransfer": "false",
+          "ruby.categoryType": "RETAILPRINCIPAL",
+          "journal.voucherCode": "CARD_MISC_DEBIT_ADJUSTMENTS",
+          "defaultTimeReference": "BOOK",
+          "ruby.isBaseTransaction": "true"
+        },
+        "postingCategories": [
+          "RetailPrincipalUnbilled",
+          "RetailUnbilled"
+        ]
+      },
+      "attachments": []
+    }
+  ]
+}

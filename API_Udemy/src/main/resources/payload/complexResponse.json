@@ -1,0 +1,89 @@
+{
+  "requestID": "PKGAccountTest1674136194",
+  "payloadHash": "3b425342368a73981ef97d060ea861ad",
+  "tenantID": 140793,
+  "ledgerID": 1569517447856716480,
+  "userID": 0,
+  "ledgerType": "ACCOUNT_HOLDER",
+  "accountingType": "ASSET",
+  "balance": 246014,
+  "lastTransactionID": "20230119144854726_AddLedgerAttachment_fcfd8112-4a8b-476d-8ed4-c775342923c8",
+  "lastReceiptHash": "Cw2d3g==",
+  "lastPostingID": 326363,
+  "currency": "INR",
+  "createdAt": 1674136206345,
+  "lastUpdatedAt": 1674139735098,
+  "creditLimit": 9223372036854775807,
+  "overdraftLimit": 0,
+  "attrs": {
+    "currency": "INR",
+    "aura.coa-id": "2201104019684666068",
+    "creditLimit": "50000000",
+    "account.pd-id": "4202712136292510534",
+    "account.pf-id": "3666270197012954215",
+    "account.openDate": "2020-04-20",
+    "account.provider": "ruby",
+    "dontPostInterest": "false",
+    "issuance.location": "TN",
+    "dontAssessInterest": "false",
+    "aura.parent-node-id": "3666270197012954215",
+    "ruby.annual-fee.treatment": "REGULAR"
+  },
+  "ledgerState": "ENABLED",
+  "debitors": [],
+  "accountHolderDebitors": [
+    "f7763be5-5b27-44ab-a3c1-96243bbe9594"
+  ],
+  "accountHolderId": "f7763be5-5b27-44ab-a3c1-96243bbe9594",
+  "coaId": 2201104019684666068,
+  "timeZone": "Asia/Kolkata",
+  "parentNodeID": 6179468415699281157,
+  "tags": [
+    "tag://accountClosureStatus/LEVEL_0?name=OPEN&tagTypeCode=classification",
+    "tag://accountLifecycleStatus/LEVEL_1?name=ACTIVE&tagTypeCode=classification&activationMode=CLEARANCE&activationTime=1674136245870&activationChannel=SYSTEM&activationApprovedBy=SYSTEM&activationInitiatedBy=SYSTEM&activationReferenceNumber=20230119135045870_7616_PKGClear1674136243",
+    "tag://administrativeStatus/LEVEL_0?name=NORMAL&tagTypeCode=classification",
+    "tag://balanceStatus/LEVEL_3?name=DEBIT_BALANCE_HIGH&tagTypeCode=classification",
+    "tag://billingCycleId/2847723726812121267?firstDueDate=1587493799999&lastBillingAt=1587407400000&firstGraceDate=1587580199999&firstStatementDate=1587407399999",
+    "tag://delinquencyStatus/LEVEL_1?name=CURRENT_DUE&tagTypeCode=classification",
+    "tag://dormancyStatus/LEVEL_0?name=NOT_DORMANT&tagTypeCode=classification",
+    "tag://GOOD_STANDING/true",
+    "tag://membershipType/REGULAR?tagTypeCode=classification"
+  ],
+  "vectors": [
+    {
+      "ledgerID": "1569517447856716480",
+      "tenantID": 140793,
+      "type": "account-no",
+      "value": "0010011029861080",
+      "status": "ACTIVE"
+    },
+    {
+      "ledgerID": "1569517447856716480",
+      "tenantID": 140793,
+      "type": "account-id",
+      "value": "b127f2ae-0787-489e-969c-ad060776f763",
+      "status": "ACTIVE"
+    }
+  ],
+  "vectorURIs": [
+    "vector://account-no/0010011029861080",
+    "vector://account-id/b127f2ae-0787-489e-969c-ad060776f763"
+  ],
+  "customFields": [
+    {
+      "tenantID": 140793,
+      "coaID": 2201104019684666068,
+      "ledgerID": 1569517447856716480,
+      "code": "CREDIT_LIMIT",
+      "id": "793dbaeb-c668-45d7-a400-5d801d241ae7",
+      "type": "LIMIT_CODE",
+      "value": 50000000,
+      "provider": "RUBY",
+      "description": "credit limit on custom field",
+      "bookTime": 0,
+      "createdAt": "2023-01-19 13:50:12.156508+00",
+      "modifiedAt": "2023-01-19 13:50:12.156508+00",
+      "headers": {}
+    }
+  ]
+}

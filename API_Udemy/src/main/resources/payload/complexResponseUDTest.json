@@ -1,0 +1,77 @@
+{
+  "requestID": "Test1234567",
+  "payloadHash": "dfgfhghj56789fghjkghj",
+  "tenantID": 123456,
+  "ledgerID": 2233445566777,
+  "userID": 0,
+  "ledgerType": "ACCOUNT_HOLDER",
+  "accountingType": "ASSET",
+  "balance": 20000,
+  "lastTransactionID": "20230119144854726-4a8b-476d-8ed4-c775342923c8",
+  "currency": "INR",
+  "createdAt": 1674136206345,
+  "lastUpdatedAt": 1674139735098,
+  "creditLimit": 44567887656789,
+  "overdraftLimit": 0,
+  "attrs": {
+    "currency": "INR",
+    "creditLimit": "50000000",
+    "account.openDate": "2020-04-20",
+    "dontPostInterest": "false",
+    "dontAssessInterest": "false"
+  },
+  "ledgerState": "ENABLED",
+  "debitors": [],
+  "accountHolderDebitors": [
+    "f7763be5-5b27-96243bbe9594"
+  ],
+  "accountHolderId": "f7763be5-a3c1-96243bbe9594",
+  "coaId": 222222244444455555,
+  "parentNodeID": 8888889999999,
+  "tags": [
+    "tag://accountClosureStatus/LEVEL_0?name=OPEN&tagTypeCode=classification",
+    "tag://administrativeStatus/LEVEL_0?name=NORMAL&tagTypeCode=classification",
+    "tag://balanceStatus/LEVEL_3?name=DEBIT_BALANCE_HIGH&tagTypeCode=classification",
+    "tag://delinquencyStatus/LEVEL_1?name=CURRENT_DUE&tagTypeCode=classification",
+    "tag://dormancyStatus/LEVEL_0?name=NOT_DORMANT&tagTypeCode=classification",
+    "tag://GOOD_STANDING/true",
+    "tag://membershipType/REGULAR?tagTypeCode=classification"
+  ],
+  "vectors": [
+    {
+      "ledgerID": "23232323231322",
+      "tenantID": 123456,
+      "type": "account-no",
+      "value": "001001102983333",
+      "status": "ACTIVE"
+    },
+    {
+      "ledgerID": "1569517447856716480",
+      "tenantID": 123456,
+      "type": "account-id",
+      "value": "b127f2ae-0787-ad060776f763",
+      "status": "ACTIVE"
+    }
+  ],
+  "vectorURIs": [
+    "vector://account-no/001111119861080",
+    "vector://account-id/b127f2ae-969c-ad060776f763"
+  ],
+  "customFields": [
+    {
+      "tenantID": 666666,
+      "coaID": 3245666666,
+      "ledgerID": 12345678,
+      "code": "CREDIT_LIMIT",
+      "id": "793-c668-a400-5d801d241ae7",
+      "type": "LIMIT_CODE",
+      "value": 50000,
+      "provider": "VISA",
+      "description": "credit limit on custom field",
+      "bookTime": 0,
+      "createdAt": "2023-01-19 13:50:12.156508+00",
+      "modifiedAt": "2023-01-19 13:50:12.156508+00",
+      "headers": {}
+    }
+  ]
+}
